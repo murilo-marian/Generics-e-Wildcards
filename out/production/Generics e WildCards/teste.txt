@@ -1,0 +1,15 @@
+3 - Uma classe de Pedido deve conter uma lista de Produtos e ter os
+metodos de adicionar e mostrar lista de Produtos. Mas os produtos desta
+lista so podem ser produtos que herdam caracterısticas da classe ProdutoX
+(classe que vocˆe ira criar e definir atributos mınimos ao seu criterio). Crie
+a classe ProdutoX, Pedido e o Main demonstrando a utilizacao dos dois
+metodos de Pedido.
+4 - Crie uma estrutura em uma classe onde ela seja capaz de armazenar
+uma lista de chave e valor, onde a chave e do tipo String e deve ser unica
+dentro da lista. Com isso o metodo de add deve retornar true caso tenha
+conseguido inserir chave e valor e false caso nao tenha inserido pois ja
+existia uma chave igual. Outro metodo necessario e o de busca pela chave,
+este deve retornar chave e valor. Lembrando que a chave e String, porem
+o valor e Generic. Crie tambem o Main testando todas as condicoes. Nao
+use as estrutura de dados ja existentes no Java (List e ArrayList sao
+permitidos usar)
