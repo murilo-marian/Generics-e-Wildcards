@@ -3,14 +3,14 @@ package exercicio03;
 
 import java.util.ArrayList;
 
-public class Pedido {
-    private ArrayList<ProdutoX> produtos;
+public class Pedido<T extends ProdutoX> {
+    private ArrayList<T> produtos;
 
-    public ArrayList<ProdutoX> getProdutos() {
+    public ArrayList<T> getProdutos() {
         return produtos;
     }
 
-    public void setProdutos(ArrayList<ProdutoX> produtos) {
+    public void setProdutos(ArrayList<T> produtos) {
         this.produtos = produtos;
     }
 }
